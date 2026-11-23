@@ -1,0 +1,10 @@
+{
+  "chain": [
+    "gemini:gemini-flash-latest",
+    "gemini:gemini-flash-lite-latest",
+    "claude:sonnet"
+  ],
+  "timeoutSeconds": 540,
+  "gemini": { "maxRetries": 2 },
+  "claude": {}
+}

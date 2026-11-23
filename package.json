@@ -1,0 +1,10 @@
+{
+  "name": "llm-fallback-router",
+  "version": "0.1.0",
+  "description": "Run a prompt through a chain of LLM CLIs (Gemini models, then Claude) and cut a model off early when it is overloaded instead of waiting out its retries.",
+  "type": "module",
+  "bin": { "llm-fallback": "bin/llm-fallback.mjs" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
